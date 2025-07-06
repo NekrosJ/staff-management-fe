@@ -141,7 +141,7 @@ const LeaveManagement = () => {
               {canCreateRequest && (
                 <button
                   onClick={() => setShowRequestForm(true)}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors duration-200"
+                  className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors shadow-sm"
                 >
                   <Plus className="w-4 h-4" />
                   <span>Tạo Đơn Nghỉ Phép</span>

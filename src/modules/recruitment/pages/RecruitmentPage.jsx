@@ -315,10 +315,10 @@ const RecruitmentPage = () => {
               </div>
               <button
                 onClick={() => setShowCreateModal(true)}
-                className="flex items-center px-4 py-2 md:px-6 md:py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 trchonjansition-colors shadow-sm"
               >
                 <Plus className="w-4 h-4 md:w-5 md:h-5 mr-2" />
-                <span className="hidden md:inline">Tạo Buổi PV Mới</span>
+                <span className="hidden md:inline">Tạo buổi phỏng vấn </span>
                 <span className="md:hidden">Tạo PV</span>
               </button>
             </div>
